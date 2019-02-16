@@ -1,0 +1,29 @@
+/*.button-nav{
+    display: inline-block;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.42857143;
+    padding: 6px 12px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    white-space: nowrap;
+    vertical-align: middle;
+    color:black;
+}*/
+.button-nav {
+    display: inline-block;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: #000;
+    padding: .8rem 1rem;
+    border: 1px solid #000;
+  }
+/* Additional style for hover */
+.button-nav:hover{
+    color: white;
+    background-color: black;
+    transition: background-color .15s ease-in-out;
+}
